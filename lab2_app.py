@@ -16,7 +16,7 @@ def hello():
         visits = "<i>cannot connect to Redis, Counter disabled</i>"
 
 
-    html = "<h3>Hi !... {name}!</h3>" \
+    html = "<h3>Hi ... {name}!</h3>" \
               "<b>Hostname: </b>  {hostname}<br/>" \
               "<b>Visits:</b> {visits}"
 
